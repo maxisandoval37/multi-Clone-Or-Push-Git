@@ -33,7 +33,7 @@ for /f "tokens=*" %%h in (repo_list.txt) do (
 	echo !repoName!
 
 	cd !repoName!
-	git remote set-url origin https://miSite@dev.azure.com/repositories/_git/!repoName!
+	git remote set-url origin https://mySite@dev.azure.com/repositories/_git/!repoName!
 	git push -u origin --all
 	cd ..
 
