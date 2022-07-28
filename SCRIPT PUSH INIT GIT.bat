@@ -36,7 +36,7 @@ for /f "tokens=*" %%h in (repo_list.txt) do (
 	git init
 	git remote add origin https://mySite@dev.azure.com/repositories/_git/!repoName!
 	git add .
-	git commit -m "svn to git migration 2022 :D"
+	git commit -m "firt commit"
 	git push -u origin --all
 	cd ..
 
